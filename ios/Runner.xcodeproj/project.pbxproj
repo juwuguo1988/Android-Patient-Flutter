@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1213360325B97A2200CF4DA6 /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1213360225B97A2200CF4DA6 /* Flutter.framework */; };
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		704FE2508AAE8BFE9E428C93 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39929A040C67CC055C9B9F21 /* Pods_Runner.framework */; };
@@ -15,55 +16,9 @@
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		A360687424ADED860085081D /* ChanelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A360687324ADED860085081D /* ChanelTest.swift */; };
-		A36730D024AD765300686E36 /* BT_ShakeBoxTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A367306C24AD765300686E36 /* BT_ShakeBoxTask.m */; };
-		A36730D124AD765300686E36 /* BT_BoxNetSigal.m in Sources */ = {isa = PBXBuildFile; fileRef = A367306E24AD765300686E36 /* BT_BoxNetSigal.m */; };
-		A36730D224AD765300686E36 /* BT_GetCellWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = A367306F24AD765300686E36 /* BT_GetCellWeight.m */; };
-		A36730D324AD765300686E36 /* BT_WillSpeech.m in Sources */ = {isa = PBXBuildFile; fileRef = A367307024AD765300686E36 /* BT_WillSpeech.m */; };
-		A36730D424AD765300686E36 /* BaseDeviceTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A367307124AD765300686E36 /* BaseDeviceTask.m */; };
-		A36730D524AD765300686E36 /* BT_AddPlanTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A367307224AD765300686E36 /* BT_AddPlanTask.m */; };
-		A36730D624AD765300686E36 /* BT_WillFontText.m in Sources */ = {isa = PBXBuildFile; fileRef = A367307324AD765300686E36 /* BT_WillFontText.m */; };
-		A36730D724AD765300686E36 /* BT_FillMedicTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A367307424AD765300686E36 /* BT_FillMedicTask.m */; };
-		A36730D824AD765300686E36 /* BT_Connect.m in Sources */ = {isa = PBXBuildFile; fileRef = A367307624AD765300686E36 /* BT_Connect.m */; };
-		A36730D924AD765300686E36 /* BT_PostionStateTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A367307724AD765300686E36 /* BT_PostionStateTask.m */; };
-		A36730DA24AD765300686E36 /* BT_LightControlTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A367307C24AD765300686E36 /* BT_LightControlTask.m */; };
-		A36730DB24AD765300686E36 /* BT_BoxLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A367307D24AD765300686E36 /* BT_BoxLocation.m */; };
-		A36730DC24AD765300686E36 /* BT_VoiceSendTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A367307E24AD765300686E36 /* BT_VoiceSendTask.m */; };
-		A36730DD24AD765300686E36 /* BT_DeletePlanTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A367308224AD765300686E36 /* BT_DeletePlanTask.m */; };
-		A36730DE24AD765300686E36 /* GetDeviceTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A367308824AD765300686E36 /* GetDeviceTask.m */; };
-		A36730DF24AD765300686E36 /* BT_SoundControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A367308924AD765300686E36 /* BT_SoundControl.m */; };
-		A36730E024AD765300686E36 /* NewBleTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A367308B24AD765300686E36 /* NewBleTask.m */; };
-		A36730E124AD765300686E36 /* BT_Disconnect.m in Sources */ = {isa = PBXBuildFile; fileRef = A367309024AD765300686E36 /* BT_Disconnect.m */; };
-		A36730E224AD765300686E36 /* BT_BoxState.m in Sources */ = {isa = PBXBuildFile; fileRef = A367309124AD765300686E36 /* BT_BoxState.m */; };
-		A36730E324AD765300686E36 /* BT_UnBindDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A367309224AD765300686E36 /* BT_UnBindDevice.m */; };
-		A36730E424AD765300686E36 /* BT_GetDeviceBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = A367309524AD765300686E36 /* BT_GetDeviceBattery.m */; };
-		A36730E524AD765300686E36 /* BT_EditPlanTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A367309624AD765300686E36 /* BT_EditPlanTask.m */; };
-		A36730E624AD765300686E36 /* BT_PostionStatePillMeasure.m in Sources */ = {isa = PBXBuildFile; fileRef = A367309724AD765300686E36 /* BT_PostionStatePillMeasure.m */; };
-		A36730E724AD765300686E36 /* BT_QueryDevicePlans.m in Sources */ = {isa = PBXBuildFile; fileRef = A367309924AD765300686E36 /* BT_QueryDevicePlans.m */; };
-		A36730E824AD765300686E36 /* BT_BindDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A367309A24AD765300686E36 /* BT_BindDevice.m */; };
-		A36730E924AD765300686E36 /* BT_MedicationReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = A367309B24AD765300686E36 /* BT_MedicationReminder.m */; };
-		A36730EA24AD765300686E36 /* BT_checkTimeTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A367309F24AD765300686E36 /* BT_checkTimeTask.m */; };
-		A36730EB24AD765300686E36 /* CommandSender.m in Sources */ = {isa = PBXBuildFile; fileRef = A36730A224AD765300686E36 /* CommandSender.m */; };
-		A36730EC24AD765300686E36 /* CommandParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A36730A424AD765300686E36 /* CommandParser.m */; };
-		A36730ED24AD765300686E36 /* ThirdCommandSender.m in Sources */ = {isa = PBXBuildFile; fileRef = A36730A624AD765300686E36 /* ThirdCommandSender.m */; };
-		A36730EE24AD765300686E36 /* BleDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A36730B324AD765300686E36 /* BleDataModel.m */; };
-		A36730EF24AD765300686E36 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = A36730B424AD765300686E36 /* Device.m */; };
-		A36730F024AD765300686E36 /* XZLNewPillBoxMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A36730B524AD765300686E36 /* XZLNewPillBoxMessage.m */; };
-		A36730F124AD765300686E36 /* NewBleResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A36730B624AD765300686E36 /* NewBleResult.m */; };
-		A36730F224AD765300686E36 /* GBK16crx.bin in Resources */ = {isa = PBXBuildFile; fileRef = A36730C124AD765300686E36 /* GBK16crx.bin */; };
-		A36730F324AD765300686E36 /* libbleIOSSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A36730C324AD765300686E36 /* libbleIOSSdk.a */; };
-		A36730F424AD765300686E36 /* GBK24cfx.BIN in Resources */ = {isa = PBXBuildFile; fileRef = A36730C424AD765300686E36 /* GBK24cfx.BIN */; };
-		A36730F524AD765300686E36 /* ConnectService.m in Sources */ = {isa = PBXBuildFile; fileRef = A36730C624AD765300686E36 /* ConnectService.m */; };
 		A36730F724AD76C500686E36 /* ThirdMedicCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = A36730F624AD76C500686E36 /* ThirdMedicCode.plist */; };
-		A367314324ADCC4900686E36 /* ThirdPillBoxDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A367314124ADCC4900686E36 /* ThirdPillBoxDevice.m */; };
-		A367314824ADCCF300686E36 /* XZLThirdDeviceBLEBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = A367314724ADCCF300686E36 /* XZLThirdDeviceBLEBusiness.m */; };
-		A367314C24ADCDC300686E36 /* XZLPillBoxBusinessConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A367314A24ADCDC300686E36 /* XZLPillBoxBusinessConst.m */; };
-		A367314F24ADCF0800686E36 /* NewBleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A367314E24ADCF0800686E36 /* NewBleManager.m */; };
 		A3F07B5724AC7E6500BE8404 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BEC839249C8DF0000F855D /* App.framework */; };
 		A3F07B5824AC7E6500BE8404 /* App.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3BEC839249C8DF0000F855D /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A3F07B5924AC7E6500BE8404 /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BEC83A249C8DF0000F855D /* Flutter.framework */; };
-		A3F07B5A24AC7E6500BE8404 /* Flutter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3BEC83A249C8DF0000F855D /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A3F07BD924AC8FB800BE8404 /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F07BD624AC8FB800BE8404 /* LogManager.m */; };
-		A3F07BDA24AC8FB800BE8404 /* FileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F07BD724AC8FB800BE8404 /* FileLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -74,7 +29,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				A3F07B5824AC7E6500BE8404 /* App.framework in Embed Frameworks */,
-				A3F07B5A24AC7E6500BE8404 /* Flutter.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,6 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1213360225B97A2200CF4DA6 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = Flutter/Flutter.framework; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		24BF01013F7E27C92259F95C /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,111 +54,8 @@
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A360687324ADED860085081D /* ChanelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChanelTest.swift; sourceTree = "<group>"; };
-		A367306A24AD765300686E36 /* NewBleTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewBleTask.h; sourceTree = "<group>"; };
-		A367306B24AD765300686E36 /* BT_SoundControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_SoundControl.h; sourceTree = "<group>"; };
-		A367306C24AD765300686E36 /* BT_ShakeBoxTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_ShakeBoxTask.m; sourceTree = "<group>"; };
-		A367306D24AD765300686E36 /* GetDeviceTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDeviceTask.h; sourceTree = "<group>"; };
-		A367306E24AD765300686E36 /* BT_BoxNetSigal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_BoxNetSigal.m; sourceTree = "<group>"; };
-		A367306F24AD765300686E36 /* BT_GetCellWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_GetCellWeight.m; sourceTree = "<group>"; };
-		A367307024AD765300686E36 /* BT_WillSpeech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_WillSpeech.m; sourceTree = "<group>"; };
-		A367307124AD765300686E36 /* BaseDeviceTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDeviceTask.m; sourceTree = "<group>"; };
-		A367307224AD765300686E36 /* BT_AddPlanTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_AddPlanTask.m; sourceTree = "<group>"; };
-		A367307324AD765300686E36 /* BT_WillFontText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_WillFontText.m; sourceTree = "<group>"; };
-		A367307424AD765300686E36 /* BT_FillMedicTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_FillMedicTask.m; sourceTree = "<group>"; };
-		A367307524AD765300686E36 /* BT_GetDeviceBattery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_GetDeviceBattery.h; sourceTree = "<group>"; };
-		A367307624AD765300686E36 /* BT_Connect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_Connect.m; sourceTree = "<group>"; };
-		A367307724AD765300686E36 /* BT_PostionStateTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_PostionStateTask.m; sourceTree = "<group>"; };
-		A367307824AD765300686E36 /* BT_UnBindDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_UnBindDevice.h; sourceTree = "<group>"; };
-		A367307924AD765300686E36 /* BT_BoxState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_BoxState.h; sourceTree = "<group>"; };
-		A367307A24AD765300686E36 /* BT_Disconnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_Disconnect.h; sourceTree = "<group>"; };
-		A367307B24AD765300686E36 /* BT_checkTimeTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_checkTimeTask.h; sourceTree = "<group>"; };
-		A367307C24AD765300686E36 /* BT_LightControlTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_LightControlTask.m; sourceTree = "<group>"; };
-		A367307D24AD765300686E36 /* BT_BoxLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_BoxLocation.m; sourceTree = "<group>"; };
-		A367307E24AD765300686E36 /* BT_VoiceSendTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_VoiceSendTask.m; sourceTree = "<group>"; };
-		A367307F24AD765300686E36 /* BT_BindDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_BindDevice.h; sourceTree = "<group>"; };
-		A367308024AD765300686E36 /* BT_MedicationReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_MedicationReminder.h; sourceTree = "<group>"; };
-		A367308124AD765300686E36 /* BT_QueryDevicePlans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_QueryDevicePlans.h; sourceTree = "<group>"; };
-		A367308224AD765300686E36 /* BT_DeletePlanTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_DeletePlanTask.m; sourceTree = "<group>"; };
-		A367308324AD765300686E36 /* BT_PostionStatePillMeasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_PostionStatePillMeasure.h; sourceTree = "<group>"; };
-		A367308424AD765300686E36 /* BT_EditPlanTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_EditPlanTask.h; sourceTree = "<group>"; };
-		A367308524AD765300686E36 /* BT_WillSpeech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_WillSpeech.h; sourceTree = "<group>"; };
-		A367308624AD765300686E36 /* BT_BoxNetSigal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_BoxNetSigal.h; sourceTree = "<group>"; };
-		A367308724AD765300686E36 /* BT_GetCellWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_GetCellWeight.h; sourceTree = "<group>"; };
-		A367308824AD765300686E36 /* GetDeviceTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetDeviceTask.m; sourceTree = "<group>"; };
-		A367308924AD765300686E36 /* BT_SoundControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_SoundControl.m; sourceTree = "<group>"; };
-		A367308A24AD765300686E36 /* BT_ShakeBoxTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_ShakeBoxTask.h; sourceTree = "<group>"; };
-		A367308B24AD765300686E36 /* NewBleTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewBleTask.m; sourceTree = "<group>"; };
-		A367308C24AD765300686E36 /* BT_FillMedicTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_FillMedicTask.h; sourceTree = "<group>"; };
-		A367308D24AD765300686E36 /* BT_AddPlanTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_AddPlanTask.h; sourceTree = "<group>"; };
-		A367308E24AD765300686E36 /* BT_WillFontText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_WillFontText.h; sourceTree = "<group>"; };
-		A367308F24AD765300686E36 /* BaseDeviceTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDeviceTask.h; sourceTree = "<group>"; };
-		A367309024AD765300686E36 /* BT_Disconnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_Disconnect.m; sourceTree = "<group>"; };
-		A367309124AD765300686E36 /* BT_BoxState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_BoxState.m; sourceTree = "<group>"; };
-		A367309224AD765300686E36 /* BT_UnBindDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_UnBindDevice.m; sourceTree = "<group>"; };
-		A367309324AD765300686E36 /* BT_PostionStateTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_PostionStateTask.h; sourceTree = "<group>"; };
-		A367309424AD765300686E36 /* BT_Connect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_Connect.h; sourceTree = "<group>"; };
-		A367309524AD765300686E36 /* BT_GetDeviceBattery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_GetDeviceBattery.m; sourceTree = "<group>"; };
-		A367309624AD765300686E36 /* BT_EditPlanTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_EditPlanTask.m; sourceTree = "<group>"; };
-		A367309724AD765300686E36 /* BT_PostionStatePillMeasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_PostionStatePillMeasure.m; sourceTree = "<group>"; };
-		A367309824AD765300686E36 /* BT_DeletePlanTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_DeletePlanTask.h; sourceTree = "<group>"; };
-		A367309924AD765300686E36 /* BT_QueryDevicePlans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_QueryDevicePlans.m; sourceTree = "<group>"; };
-		A367309A24AD765300686E36 /* BT_BindDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_BindDevice.m; sourceTree = "<group>"; };
-		A367309B24AD765300686E36 /* BT_MedicationReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_MedicationReminder.m; sourceTree = "<group>"; };
-		A367309C24AD765300686E36 /* BT_VoiceSendTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_VoiceSendTask.h; sourceTree = "<group>"; };
-		A367309D24AD765300686E36 /* BT_LightControlTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_LightControlTask.h; sourceTree = "<group>"; };
-		A367309E24AD765300686E36 /* BT_BoxLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BT_BoxLocation.h; sourceTree = "<group>"; };
-		A367309F24AD765300686E36 /* BT_checkTimeTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BT_checkTimeTask.m; sourceTree = "<group>"; };
-		A36730A024AD765300686E36 /* ConnectService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectService.h; sourceTree = "<group>"; };
-		A36730A224AD765300686E36 /* CommandSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandSender.m; sourceTree = "<group>"; };
-		A36730A324AD765300686E36 /* ThirdCommandSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdCommandSender.h; sourceTree = "<group>"; };
-		A36730A424AD765300686E36 /* CommandParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandParser.m; sourceTree = "<group>"; };
-		A36730A524AD765300686E36 /* CommandSenderInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandSenderInterface.h; sourceTree = "<group>"; };
-		A36730A624AD765300686E36 /* ThirdCommandSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdCommandSender.m; sourceTree = "<group>"; };
-		A36730A724AD765300686E36 /* CommandSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandSender.h; sourceTree = "<group>"; };
-		A36730A824AD765300686E36 /* CommandParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandParser.h; sourceTree = "<group>"; };
-		A36730A924AD765300686E36 /* ThirdDeviceInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdDeviceInterface.h; sourceTree = "<group>"; };
-		A36730AA24AD765300686E36 /* DeviceInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInterface.h; sourceTree = "<group>"; };
-		A36730AC24AD765300686E36 /* NewBlockBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewBlockBlocks.h; sourceTree = "<group>"; };
-		A36730AD24AD765300686E36 /* NewDeviceConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewDeviceConstants.h; sourceTree = "<group>"; };
-		A36730AF24AD765300686E36 /* BleDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleDataModel.h; sourceTree = "<group>"; };
-		A36730B024AD765300686E36 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
-		A36730B124AD765300686E36 /* XZLNewPillBoxMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZLNewPillBoxMessage.h; sourceTree = "<group>"; };
-		A36730B224AD765300686E36 /* NewBleResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewBleResult.h; sourceTree = "<group>"; };
-		A36730B324AD765300686E36 /* BleDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BleDataModel.m; sourceTree = "<group>"; };
-		A36730B424AD765300686E36 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
-		A36730B524AD765300686E36 /* XZLNewPillBoxMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZLNewPillBoxMessage.m; sourceTree = "<group>"; };
-		A36730B624AD765300686E36 /* NewBleResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewBleResult.m; sourceTree = "<group>"; };
-		A36730B824AD765300686E36 /* BabyRhythm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyRhythm.h; sourceTree = "<group>"; };
-		A36730B924AD765300686E36 /* BabySpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabySpeaker.h; sourceTree = "<group>"; };
-		A36730BA24AD765300686E36 /* BabyCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCentralManager.h; sourceTree = "<group>"; };
-		A36730BB24AD765300686E36 /* BabyPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyPeripheralManager.h; sourceTree = "<group>"; };
-		A36730BC24AD765300686E36 /* bleIOSSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bleIOSSdk.h; sourceTree = "<group>"; };
-		A36730BD24AD765300686E36 /* BabyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyDefine.h; sourceTree = "<group>"; };
-		A36730BE24AD765300686E36 /* DataInfoOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataInfoOC.h; sourceTree = "<group>"; };
-		A36730BF24AD765300686E36 /* BabyBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyBluetooth.h; sourceTree = "<group>"; };
-		A36730C024AD765300686E36 /* BabyToy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyToy.h; sourceTree = "<group>"; };
-		A36730C124AD765300686E36 /* GBK16crx.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GBK16crx.bin; sourceTree = "<group>"; };
-		A36730C224AD765300686E36 /* BabyOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyOptions.h; sourceTree = "<group>"; };
-		A36730C324AD765300686E36 /* libbleIOSSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbleIOSSdk.a; sourceTree = "<group>"; };
-		A36730C424AD765300686E36 /* GBK24cfx.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GBK24cfx.BIN; sourceTree = "<group>"; };
-		A36730C524AD765300686E36 /* BabyCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCallback.h; sourceTree = "<group>"; };
-		A36730C624AD765300686E36 /* ConnectService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectService.m; sourceTree = "<group>"; };
 		A36730F624AD76C500686E36 /* ThirdMedicCode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ThirdMedicCode.plist; sourceTree = "<group>"; };
-		A367314124ADCC4900686E36 /* ThirdPillBoxDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdPillBoxDevice.m; sourceTree = "<group>"; };
-		A367314224ADCC4900686E36 /* ThirdPillBoxDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdPillBoxDevice.h; sourceTree = "<group>"; };
-		A367314624ADCCF300686E36 /* XZLThirdDeviceBLEBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZLThirdDeviceBLEBusiness.h; sourceTree = "<group>"; };
-		A367314724ADCCF300686E36 /* XZLThirdDeviceBLEBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZLThirdDeviceBLEBusiness.m; sourceTree = "<group>"; };
-		A367314924ADCD3300686E36 /* XZLThirdPillBoxBusinessInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZLThirdPillBoxBusinessInterface.h; sourceTree = "<group>"; };
-		A367314A24ADCDC300686E36 /* XZLPillBoxBusinessConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZLPillBoxBusinessConst.m; sourceTree = "<group>"; };
-		A367314B24ADCDC300686E36 /* XZLPillBoxBusinessConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZLPillBoxBusinessConst.h; sourceTree = "<group>"; };
-		A367314D24ADCF0800686E36 /* NewBleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewBleManager.h; sourceTree = "<group>"; };
-		A367314E24ADCF0800686E36 /* NewBleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewBleManager.m; sourceTree = "<group>"; };
 		A3BEC839249C8DF0000F855D /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = App.framework; path = Flutter/App.framework; sourceTree = "<group>"; };
-		A3BEC83A249C8DF0000F855D /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = Flutter/Flutter.framework; sourceTree = "<group>"; };
-		A3F07BD524AC8FB800BE8404 /* FileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileLogger.h; sourceTree = "<group>"; };
-		A3F07BD624AC8FB800BE8404 /* LogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogManager.m; sourceTree = "<group>"; };
-		A3F07BD724AC8FB800BE8404 /* FileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileLogger.m; sourceTree = "<group>"; };
-		A3F07BD824AC8FB800BE8404 /* LogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogManager.h; sourceTree = "<group>"; };
 		DC73A8357AB7DF72DC892629 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -212,10 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A36730F324AD765300686E36 /* libbleIOSSdk.a in Frameworks */,
 				A3F07B5724AC7E6500BE8404 /* App.framework in Frameworks */,
-				A3F07B5924AC7E6500BE8404 /* Flutter.framework in Frameworks */,
 				704FE2508AAE8BFE9E428C93 /* Pods_Runner.framework in Frameworks */,
+				1213360325B97A2200CF4DA6 /* Flutter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,8 +76,8 @@
 		2EDD9391838FDEF385AA9701 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1213360225B97A2200CF4DA6 /* Flutter.framework */,
 				A3BEC839249C8DF0000F855D /* App.framework */,
-				A3BEC83A249C8DF0000F855D /* Flutter.framework */,
 				39929A040C67CC055C9B9F21 /* Pods_Runner.framework */,
 			);
 			name = Frameworks;
@@ -282,8 +133,6 @@
 				97C146F11CF9000F007C117D /* Supporting Files */,
 				1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */,
 				1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */,
-				A367305024AD765300686E36 /* BLETooth */,
-				A3F07BD424AC8FB800BE8404 /* Log */,
 				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
 				A360687324ADED860085081D /* ChanelTest.swift */,
 				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
@@ -297,186 +146,6 @@
 				A36730F624AD76C500686E36 /* ThirdMedicCode.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A367305024AD765300686E36 /* BLETooth */ = {
-			isa = PBXGroup;
-			children = (
-				A367314424ADCCF300686E36 /* NewPillBoxBusiness */,
-				A367306824AD765300686E36 /* BLEService */,
-			);
-			path = BLETooth;
-			sourceTree = "<group>";
-		};
-		A367306824AD765300686E36 /* BLEService */ = {
-			isa = PBXGroup;
-			children = (
-				A367306924AD765300686E36 /* tasks */,
-				A36730A024AD765300686E36 /* ConnectService.h */,
-				A36730A124AD765300686E36 /* Protocol */,
-				A36730AB24AD765300686E36 /* Constant */,
-				A36730AE24AD765300686E36 /* Model */,
-				A36730B724AD765300686E36 /* bleIOSSdk */,
-				A36730C624AD765300686E36 /* ConnectService.m */,
-			);
-			path = BLEService;
-			sourceTree = "<group>";
-		};
-		A367306924AD765300686E36 /* tasks */ = {
-			isa = PBXGroup;
-			children = (
-				A367306A24AD765300686E36 /* NewBleTask.h */,
-				A367306B24AD765300686E36 /* BT_SoundControl.h */,
-				A367306C24AD765300686E36 /* BT_ShakeBoxTask.m */,
-				A367306D24AD765300686E36 /* GetDeviceTask.h */,
-				A367306E24AD765300686E36 /* BT_BoxNetSigal.m */,
-				A367306F24AD765300686E36 /* BT_GetCellWeight.m */,
-				A367307024AD765300686E36 /* BT_WillSpeech.m */,
-				A367307124AD765300686E36 /* BaseDeviceTask.m */,
-				A367307224AD765300686E36 /* BT_AddPlanTask.m */,
-				A367307324AD765300686E36 /* BT_WillFontText.m */,
-				A367307424AD765300686E36 /* BT_FillMedicTask.m */,
-				A367307524AD765300686E36 /* BT_GetDeviceBattery.h */,
-				A367307624AD765300686E36 /* BT_Connect.m */,
-				A367307724AD765300686E36 /* BT_PostionStateTask.m */,
-				A367307824AD765300686E36 /* BT_UnBindDevice.h */,
-				A367307924AD765300686E36 /* BT_BoxState.h */,
-				A367307A24AD765300686E36 /* BT_Disconnect.h */,
-				A367307B24AD765300686E36 /* BT_checkTimeTask.h */,
-				A367307C24AD765300686E36 /* BT_LightControlTask.m */,
-				A367307D24AD765300686E36 /* BT_BoxLocation.m */,
-				A367307E24AD765300686E36 /* BT_VoiceSendTask.m */,
-				A367307F24AD765300686E36 /* BT_BindDevice.h */,
-				A367308024AD765300686E36 /* BT_MedicationReminder.h */,
-				A367308124AD765300686E36 /* BT_QueryDevicePlans.h */,
-				A367308224AD765300686E36 /* BT_DeletePlanTask.m */,
-				A367308324AD765300686E36 /* BT_PostionStatePillMeasure.h */,
-				A367308424AD765300686E36 /* BT_EditPlanTask.h */,
-				A367308524AD765300686E36 /* BT_WillSpeech.h */,
-				A367308624AD765300686E36 /* BT_BoxNetSigal.h */,
-				A367308724AD765300686E36 /* BT_GetCellWeight.h */,
-				A367308824AD765300686E36 /* GetDeviceTask.m */,
-				A367308924AD765300686E36 /* BT_SoundControl.m */,
-				A367308A24AD765300686E36 /* BT_ShakeBoxTask.h */,
-				A367308B24AD765300686E36 /* NewBleTask.m */,
-				A367308C24AD765300686E36 /* BT_FillMedicTask.h */,
-				A367308D24AD765300686E36 /* BT_AddPlanTask.h */,
-				A367308E24AD765300686E36 /* BT_WillFontText.h */,
-				A367308F24AD765300686E36 /* BaseDeviceTask.h */,
-				A367309024AD765300686E36 /* BT_Disconnect.m */,
-				A367309124AD765300686E36 /* BT_BoxState.m */,
-				A367309224AD765300686E36 /* BT_UnBindDevice.m */,
-				A367309324AD765300686E36 /* BT_PostionStateTask.h */,
-				A367309424AD765300686E36 /* BT_Connect.h */,
-				A367309524AD765300686E36 /* BT_GetDeviceBattery.m */,
-				A367309624AD765300686E36 /* BT_EditPlanTask.m */,
-				A367309724AD765300686E36 /* BT_PostionStatePillMeasure.m */,
-				A367309824AD765300686E36 /* BT_DeletePlanTask.h */,
-				A367309924AD765300686E36 /* BT_QueryDevicePlans.m */,
-				A367309A24AD765300686E36 /* BT_BindDevice.m */,
-				A367309B24AD765300686E36 /* BT_MedicationReminder.m */,
-				A367309C24AD765300686E36 /* BT_VoiceSendTask.h */,
-				A367309D24AD765300686E36 /* BT_LightControlTask.h */,
-				A367309E24AD765300686E36 /* BT_BoxLocation.h */,
-				A367309F24AD765300686E36 /* BT_checkTimeTask.m */,
-			);
-			path = tasks;
-			sourceTree = "<group>";
-		};
-		A36730A124AD765300686E36 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				A36730A224AD765300686E36 /* CommandSender.m */,
-				A36730A324AD765300686E36 /* ThirdCommandSender.h */,
-				A36730A424AD765300686E36 /* CommandParser.m */,
-				A36730A524AD765300686E36 /* CommandSenderInterface.h */,
-				A36730A624AD765300686E36 /* ThirdCommandSender.m */,
-				A36730A724AD765300686E36 /* CommandSender.h */,
-				A36730A824AD765300686E36 /* CommandParser.h */,
-				A36730A924AD765300686E36 /* ThirdDeviceInterface.h */,
-				A36730AA24AD765300686E36 /* DeviceInterface.h */,
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
-		A36730AB24AD765300686E36 /* Constant */ = {
-			isa = PBXGroup;
-			children = (
-				A36730AC24AD765300686E36 /* NewBlockBlocks.h */,
-				A36730AD24AD765300686E36 /* NewDeviceConstants.h */,
-			);
-			path = Constant;
-			sourceTree = "<group>";
-		};
-		A36730AE24AD765300686E36 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				A367314224ADCC4900686E36 /* ThirdPillBoxDevice.h */,
-				A367314124ADCC4900686E36 /* ThirdPillBoxDevice.m */,
-				A36730AF24AD765300686E36 /* BleDataModel.h */,
-				A36730B024AD765300686E36 /* Device.h */,
-				A36730B124AD765300686E36 /* XZLNewPillBoxMessage.h */,
-				A36730B224AD765300686E36 /* NewBleResult.h */,
-				A36730B324AD765300686E36 /* BleDataModel.m */,
-				A36730B424AD765300686E36 /* Device.m */,
-				A36730B524AD765300686E36 /* XZLNewPillBoxMessage.m */,
-				A36730B624AD765300686E36 /* NewBleResult.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A36730B724AD765300686E36 /* bleIOSSdk */ = {
-			isa = PBXGroup;
-			children = (
-				A36730B824AD765300686E36 /* BabyRhythm.h */,
-				A36730B924AD765300686E36 /* BabySpeaker.h */,
-				A36730BA24AD765300686E36 /* BabyCentralManager.h */,
-				A36730BB24AD765300686E36 /* BabyPeripheralManager.h */,
-				A36730BC24AD765300686E36 /* bleIOSSdk.h */,
-				A36730BD24AD765300686E36 /* BabyDefine.h */,
-				A36730BE24AD765300686E36 /* DataInfoOC.h */,
-				A36730BF24AD765300686E36 /* BabyBluetooth.h */,
-				A36730C024AD765300686E36 /* BabyToy.h */,
-				A36730C124AD765300686E36 /* GBK16crx.bin */,
-				A36730C224AD765300686E36 /* BabyOptions.h */,
-				A36730C324AD765300686E36 /* libbleIOSSdk.a */,
-				A36730C424AD765300686E36 /* GBK24cfx.BIN */,
-				A36730C524AD765300686E36 /* BabyCallback.h */,
-			);
-			path = bleIOSSdk;
-			sourceTree = "<group>";
-		};
-		A367314424ADCCF300686E36 /* NewPillBoxBusiness */ = {
-			isa = PBXGroup;
-			children = (
-				A367314D24ADCF0800686E36 /* NewBleManager.h */,
-				A367314E24ADCF0800686E36 /* NewBleManager.m */,
-				A367314B24ADCDC300686E36 /* XZLPillBoxBusinessConst.h */,
-				A367314A24ADCDC300686E36 /* XZLPillBoxBusinessConst.m */,
-				A367314924ADCD3300686E36 /* XZLThirdPillBoxBusinessInterface.h */,
-				A367314524ADCCF300686E36 /* ChildBusiness */,
-			);
-			path = NewPillBoxBusiness;
-			sourceTree = "<group>";
-		};
-		A367314524ADCCF300686E36 /* ChildBusiness */ = {
-			isa = PBXGroup;
-			children = (
-				A367314624ADCCF300686E36 /* XZLThirdDeviceBLEBusiness.h */,
-				A367314724ADCCF300686E36 /* XZLThirdDeviceBLEBusiness.m */,
-			);
-			path = ChildBusiness;
-			sourceTree = "<group>";
-		};
-		A3F07BD424AC8FB800BE8404 /* Log */ = {
-			isa = PBXGroup;
-			children = (
-				A3F07BD824AC8FB800BE8404 /* LogManager.h */,
-				A3F07BD624AC8FB800BE8404 /* LogManager.m */,
-				A3F07BD524AC8FB800BE8404 /* FileLogger.h */,
-				A3F07BD724AC8FB800BE8404 /* FileLogger.m */,
-			);
-			path = Log;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -493,7 +162,6 @@
 				97C146EC1CF9000F007C117D /* Resources */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
 				BBF853510AD36AD29EF48EF7 /* [CP] Embed Pods Frameworks */,
-				7A5C917DA7F42F87547DDD04 /* [CP] Copy Pods Resources */,
 				A3F07B5B24AC7E6500BE8404 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -544,12 +212,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A36730F224AD765300686E36 /* GBK16crx.bin in Resources */,
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				A36730F724AD76C500686E36 /* ThirdMedicCode.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
-				A36730F424AD765300686E36 /* GBK24cfx.BIN in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -593,21 +259,6 @@
 			shellPath = /bin/sh;
 			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin\n";
 		};
-		7A5C917DA7F42F87547DDD04 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9740EEB61CF901F6004384FC /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -628,9 +279,22 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${PODS_ROOT}/../Flutter/Flutter.framework",
+				"${BUILT_PRODUCTS_DIR}/image_gallery_saver/image_gallery_saver.framework",
+				"${BUILT_PRODUCTS_DIR}/path_provider/path_provider.framework",
+				"${BUILT_PRODUCTS_DIR}/shared_preferences/shared_preferences.framework",
+				"${BUILT_PRODUCTS_DIR}/sqflite/sqflite.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/image_gallery_saver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/path_provider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/shared_preferences.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqflite.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -644,50 +308,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A36730E424AD765300686E36 /* BT_GetDeviceBattery.m in Sources */,
-				A36730DE24AD765300686E36 /* GetDeviceTask.m in Sources */,
-				A36730EF24AD765300686E36 /* Device.m in Sources */,
 				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
-				A36730D824AD765300686E36 /* BT_Connect.m in Sources */,
-				A36730F524AD765300686E36 /* ConnectService.m in Sources */,
-				A36730F024AD765300686E36 /* XZLNewPillBoxMessage.m in Sources */,
-				A36730DC24AD765300686E36 /* BT_VoiceSendTask.m in Sources */,
-				A36730ED24AD765300686E36 /* ThirdCommandSender.m in Sources */,
-				A36730EB24AD765300686E36 /* CommandSender.m in Sources */,
-				A3F07BD924AC8FB800BE8404 /* LogManager.m in Sources */,
-				A36730E224AD765300686E36 /* BT_BoxState.m in Sources */,
-				A36730E124AD765300686E36 /* BT_Disconnect.m in Sources */,
-				A36730E524AD765300686E36 /* BT_EditPlanTask.m in Sources */,
-				A36730E824AD765300686E36 /* BT_BindDevice.m in Sources */,
-				A36730D424AD765300686E36 /* BaseDeviceTask.m in Sources */,
-				A36730DB24AD765300686E36 /* BT_BoxLocation.m in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
-				A36730E724AD765300686E36 /* BT_QueryDevicePlans.m in Sources */,
-				A36730F124AD765300686E36 /* NewBleResult.m in Sources */,
-				A36730DD24AD765300686E36 /* BT_DeletePlanTask.m in Sources */,
-				A367314F24ADCF0800686E36 /* NewBleManager.m in Sources */,
-				A36730D624AD765300686E36 /* BT_WillFontText.m in Sources */,
-				A36730D124AD765300686E36 /* BT_BoxNetSigal.m in Sources */,
-				A36730D224AD765300686E36 /* BT_GetCellWeight.m in Sources */,
-				A367314824ADCCF300686E36 /* XZLThirdDeviceBLEBusiness.m in Sources */,
-				A367314C24ADCDC300686E36 /* XZLPillBoxBusinessConst.m in Sources */,
-				A36730D924AD765300686E36 /* BT_PostionStateTask.m in Sources */,
-				A36730EC24AD765300686E36 /* CommandParser.m in Sources */,
-				A36730D524AD765300686E36 /* BT_AddPlanTask.m in Sources */,
-				A36730D024AD765300686E36 /* BT_ShakeBoxTask.m in Sources */,
-				A36730DA24AD765300686E36 /* BT_LightControlTask.m in Sources */,
-				A36730DF24AD765300686E36 /* BT_SoundControl.m in Sources */,
-				A36730E324AD765300686E36 /* BT_UnBindDevice.m in Sources */,
-				A3F07BDA24AC8FB800BE8404 /* FileLogger.m in Sources */,
-				A36730EE24AD765300686E36 /* BleDataModel.m in Sources */,
-				A36730E924AD765300686E36 /* BT_MedicationReminder.m in Sources */,
-				A36730EA24AD765300686E36 /* BT_checkTimeTask.m in Sources */,
 				A360687424ADED860085081D /* ChanelTest.swift in Sources */,
-				A36730D724AD765300686E36 /* BT_FillMedicTask.m in Sources */,
-				A367314324ADCC4900686E36 /* ThirdPillBoxDevice.m in Sources */,
-				A36730E624AD765300686E36 /* BT_PostionStatePillMeasure.m in Sources */,
-				A36730E024AD765300686E36 /* NewBleTask.m in Sources */,
-				A36730D324AD765300686E36 /* BT_WillSpeech.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

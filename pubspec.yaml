@@ -68,9 +68,6 @@ dependencies:
   #https://pub.dev/packages/sprintf //  format an interploated String
   sprintf: ^4.0.2
   # https://pub.dev/packages/json_annotation   Provides source_gen Generators to create code for JSON serialization and deserialization.
-  #网易云IM
-  nim:
-    path: plugins/nim
   flutter_picker: ^1.1.0
   date_format: ^1.0.8  #时间处理
 #  barcode_scan: any

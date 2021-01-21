@@ -25,37 +25,12 @@ enum MyFlutterErrorCode {
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
-
-    //初始化DDLog
-    LogManager.initLogger()
-    NewBleManager.initManager()
     
     GeneratedPluginRegistrant.register(with: self)
     
     guard let controller = window?.rootViewController as? FlutterViewController else {
       fatalError("rootViewController is not type FlutterViewController")
     }
-
-    
-    let batteryChannel = FlutterMethodChannel(name: ChannelName.battery,
-                                              binaryMessenger: controller.binaryMessenger)
-    batteryChannel.setMethodCallHandler({
-      [weak self] (call: FlutterMethodCall, result: FlutterResult) -> Void in
-        
-//      guard call.method == "getBatteryLevel" else {
-//        result(FlutterMethodNotImplemented)
-//        return
-//      }
-       switch call.method {
-        case "getBatteryLevel":
-          self?.receiveBatteryLevel(result: result)
-        case "bindDevice":
-          self?.bindDevice(result: result)
-        default:
-          result(FlutterMethodNotImplemented)
-          break
-      }
-    })
 
 
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
@@ -74,20 +49,7 @@ enum MyFlutterErrorCode {
        }
        result(Int(device.batteryLevel * 100))
      }
-    
-    private func bindDevice(result: FlutterResult) {
-            
-           let bleBusiness = XZLThirdDeviceBLEBusiness.init()
-           let bleModel = BleDataModel.init()
-            bleModel.mac = "3C:A5:09:0A:B5:BE"
-            bleModel.imei = "864048041134481"
-      
-            bleBusiness.bindOnePillBoxDevice(bleModel, andTimeout: 40, sucCallBack: { (respon) in
-//                result(respon)
-            }) { (error) in
-//                result(error)
-            }
-         }
+
 
      public func onListen(withArguments arguments: Any?,
                           eventSink: @escaping FlutterEventSink) -> FlutterError? {
